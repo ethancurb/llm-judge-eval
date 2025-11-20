@@ -1,0 +1,21 @@
+q_id,domain,question
+1,Algorithms / CS,You are given an array of n integers and an integer k. Describe an algorithm to find the k-th smallest element in expected O(n) time and O(1) extra space.
+2,Probability / Statistics,You flip a fair coin 10 times. What is the probability of getting exactly 7 heads?
+3,Physics (Classical Mechanics),A 2 kg block is pushed with a constant force of 10 N on a surface with coefficient of kinetic friction 0.2. What is its acceleration?
+4,Biology,Briefly explain the primary role of mitochondria in eukaryotic cells and name the main molecule they produce that powers cellular processes.
+5,Medicine / Physiology,"What is the main physiological role of insulin, and what happens to blood glucose when insulin is absent or deficient?"
+6,Economics,Define opportunity cost and give a one-sentence example relevant to a student choosing between working and studying.
+7,U.S. Civics / Government,Name the three branches of the United States federal government and one primary function of each.
+8,World History,"What event is commonly considered the immediate spark that started World War I, and in what year did it occur?"
+9,Data Interpretation,"A model‚Äôs accuracy rises from 78% to 83% on a 10,000-example test set. About how many additional examples are classified correctly?"
+10,Information Security,Explain the difference between encryption and hashing and give one typical use case for each.
+11,Software Engineering,Explain what idempotent HTTP methods are and give one example with a typical use.
+12,Programming / Python,"In Python, what will this code print and why? def append_one(xs=[]): xs.append(1); return xs; print(append_one()); print(append_one())."
+13,Machine Learning,Briefly compare overfitting and underfitting in supervised learning and name one technique that reduces overfitting.
+14,SQL / Databases,"Write a SQL query to return each customer‚Äôs total spending from Orders(customer_id, total_amount) for customers with totals over 1000, sorted descending."
+15,Logic / Reasoning,"Consider: 'If a number is divisible by 4, then it is even.' Is the converse true? Justify briefly."
+16,Ethics / Professionalism,A software engineer finds private data logged in plaintext due to a debug error. What is the most appropriate first action?
+17,Mathematics (Calculus),Compute the derivative of f(x) = x^3 ln(x) for x > 0.
+18,Environmental Science,What is a carbon sink and give one natural example.
+19,Reading Comprehension,"A retailer reduced delivery time from five to two days. Order value rose 8%, repeat purchases rose 15%, logistics costs rose 12%. What trade-off is it facing and which metrics improved?"
+20,Software Reliability / Testing,"Explain the difference between a unit test and an integration test, and give one example of each."

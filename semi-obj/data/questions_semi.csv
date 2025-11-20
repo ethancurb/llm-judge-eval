@@ -1,0 +1,21 @@
+q_id,domain,question
+1,Education,You are writing feedback on a student's short answer in an online course. Which feedback is better?
+2,Workplace,You are choosing a response in a team chat where someone asked for next steps on a bug. Which reply is better?
+3,Communication,Two answers explain how to prepare for a technical interview. Which one is better?
+4,Education,You are grading which explanation to keep as the example solution in a course. Which explanation is better?
+5,Workplace,You’re choosing between two code review comments. Which is better?
+6,Education,You’re selecting an answer to show as a model solution for a conceptual question. Which answer is better?
+7,Workplace,You’re drafting an email to a colleague whose code introduced a bug. Which response is better?
+8,Education,Two explanations answer why a binary search tree lookup is O(h). Which should be shown to students?
+9,Communication,You’re choosing which answer to keep in a FAQ about how to handle a conflict with a roommate. Which is better?
+10,Education,You’re curating explanations for why overfitting is a problem in machine learning. Which explanation is better for a textbook?
+11,Communication,Two answers explain how to give a good presentation. Which is more helpful for a general guide?
+12,Education,You’re choosing a written answer for an online tutorial. Which is a better explanation of what a hash table is?
+13,Workplace,You’re selecting an answer for an internal wiki about writing incident reports. Which answer is better?
+14,Education,You’re picking which answer to show in a study guide about correlation vs causation. Which is better?
+15,Communication,You’re selecting advice to give a first-year student on managing their time. Which answer is better?
+16,Workplace,You’re choosing an answer for a company handbook explaining code review goals. Which answer is better?
+17,Education,You’re deciding which answer to show in a study guide about how to approach a hard problem set. Which is better?
+18,Communication,You’re picking an answer for a FAQ about giving constructive criticism. Which answer is better?
+19,Workplace,You’re selecting a template response for turning down a feature request. Which is better?
+20,Education,You’re choosing a model answer that explains why averaging probabilities can be misleading. Which answer is better?

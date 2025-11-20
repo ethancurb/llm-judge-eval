@@ -1,0 +1,60 @@
+q_id,answer_type,answer
+1,C_base,"Use Quickselect: choose a pivot, partition the array in place, and recurse only on the side containing the k-th element. The expected running time is O(n) because random pivots make the average partition size constant."
+1,W_base,"Use Quicksort: sort the entire array, then return the k-th element. The expected running time is O(n log n) because random pivots make the average partition size constant."
+
+2,C_base,"The probability is (10 choose 7) √ó (0.5)^10 = 120/1024 = 15/128 ‚âà 0.1172."
+2,W_base,"The probability is (10 choose 6) √ó (0.5)^10 = 210/1024 = 105/512 ‚âà 0.2051."
+
+3,C_base,"Normal force N = 19.6 N, friction f_k = 3.92 N, net force = 6.08 N, acceleration = 3.04 m/s¬≤."
+3,W_base,"Normal force N = 19.6 N, friction f_k = 1.96 N, net force = 8.04 N, acceleration = 4.02 m/s¬≤."
+
+4,C_base,"Mitochondria perform aerobic respiration and oxidative phosphorylation to produce ATP (adenosine triphosphate), the cell‚Äôs main energy currency."
+4,W_base,"Mitochondria perform photosynthesis and oxidative phosphorylation to produce ATP (adenosine triphosphate), the cell‚Äôs main energy currency."
+
+5,C_base,"Insulin promotes glucose uptake into cells and inhibits hepatic glucose output; without it, blood glucose rises sharply (hyperglycemia)."
+5,W_base,"Insulin promotes glucose release from cells and increases hepatic glucose output; without it, blood glucose falls sharply (hypoglycemia)."
+
+6,C_base,"Opportunity cost is the value of the best alternative forgone. Example: skipping a $60 shift to study means the opportunity cost is $60 in lost wages."
+6,W_base,"Opportunity cost is the total value of all alternatives forgone. Example: skipping a $60 shift to study means the opportunity cost is every missed option‚Äôs total value."
+
+7,C_base,"Legislative ‚Äì makes laws; Executive ‚Äì enforces laws; Judicial ‚Äì interprets laws."
+7,W_base,"Legislative ‚Äì enforces laws; Executive ‚Äì interprets laws; Judicial ‚Äì makes laws."
+
+8,C_base,"The assassination of Archduke Franz Ferdinand of Austria in 1914 is considered the immediate trigger of World War I."
+8,W_base,"The assassination of Archduke Franz Ferdinand of Austria in 1918 is considered the immediate trigger of World War I."
+
+9,C_base,"Accuracy gain = 5 points; additional correct ‚âà 0.05 √ó 10,000 = 500."
+9,W_base,"Accuracy gain = 4 points; additional correct ‚âà 0.04 √ó 10,000 = 400."
+
+10,C_base,"Encryption transforms data using a key and is reversible with that key; it protects confidentiality. Hashing maps data to a digest and is one-way; it verifies integrity."
+10,W_base,"Encryption transforms data using a key and is one-way; it verifies integrity. Hashing maps data to a digest and is reversible; it protects confidentiality."
+
+11,C_base,"An idempotent method produces the same result when repeated. Example: GET retrieves data without altering state."
+11,W_base,"An idempotent method produces a different result when repeated. Example: POST retrieves data without altering state."
+
+12,C_base,"It prints [1] then [1, 1] because the same list object is reused across calls."
+12,W_base,"It prints [1] then [1] because a new list object is created each call."
+
+13,C_base,"Overfitting means fitting noise and performing poorly on new data; underfitting means failing to learn patterns. Regularization helps reduce overfitting."
+13,W_base,"Overfitting means failing to learn patterns; underfitting means fitting noise. Regularization helps reduce overfitting."
+
+14,C_base,"SELECT customer_id, SUM(total_amount) AS total_spent FROM Orders GROUP BY customer_id HAVING SUM(total_amount) > 1000 ORDER BY total_spent DESC;"
+14,W_base,"SELECT customer_id, AVG(total_amount) AS total_spent FROM Orders GROUP BY customer_id HAVING AVG(total_amount) > 1000 ORDER BY total_spent DESC;"
+
+15,C_base,"The converse 'If a number is even, then it is divisible by 4' is false. Example: 6 is even but not divisible by 4."
+15,W_base,"The converse 'If a number is even, then it is divisible by 4' is true. Example: 6 is even and divisible by 4."
+
+16,C_base,"The engineer should report and help correct the issue through proper internal channels, prioritizing user privacy and safety."
+16,W_base,"The engineer should publicly disclose the issue immediately to raise awareness, prioritizing transparency over procedure."
+
+17,C_base,"f'(x) = 3x^2 ln(x) + x^2 = x^2(3 ln(x) + 1)."
+17,W_base,"f'(x) = 3x^2 ln(x) ‚àí x^2 = x^2(3 ln(x) ‚àí 1)."
+
+18,C_base,"A carbon sink absorbs more carbon than it releases; examples include forests and oceans."
+18,W_base,"A carbon sink releases more carbon than it absorbs; examples include forests and oceans."
+
+19,C_base,"It trades higher logistics costs for better customer metrics. Order value and repeat purchases improved."
+19,W_base,"It trades lower logistics costs for better customer metrics. Logistics costs and repeat purchases improved."
+
+20,C_base,"A unit test checks one function in isolation, such as verifying a discount calculation. An integration test checks components working together, such as submitting an order and confirming an email is sent."
+20,W_base,"A unit test checks multiple components working together, such as submitting an order and confirming an email. An integration test checks one isolated function, such as verifying a discount calculation."

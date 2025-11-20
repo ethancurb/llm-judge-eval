@@ -1,0 +1,61 @@
+q_id,answer_type,answer
+1,C_base,"Your answer identifies the main idea and gives a relevant example. To improve, you could make the connection between the example and the question a bit clearer."
+1,W_base,"Good job, this is mostly right. Try a bit harder next time and think more about the question."
+
+2,C_base,"Let’s reproduce the issue on staging, capture logs around the payment service, and if it’s reproducible, open a Jira ticket with the stack trace."
+2,W_base,"We should probably look into this more, maybe try to reproduce it and then see what’s going on."
+
+3,C_base,"Review key data structures and algorithms, practice timed problems, and rehearse explaining your thought process out loud so interviewers can follow your reasoning."
+3,W_base,"You should basically study a lot, do a bunch of problems, and just try to be confident when you go in there so they like you."
+
+4,C_base,"The function is O(n) because it loops through the list once and does a constant amount of work per element."
+4,W_base,"This function is linear time. It’s efficient and not too slow, so it should be fine for most purposes."
+
+5,C_base,"This approach works, but the function is doing both parsing and validation. Consider splitting those into separate functions so each has a clear role."
+5,W_base,"This feels messy. You should probably restructure it so it’s not trying to do so many things at once."
+
+6,C_base,"The data shows a correlation between sleep and performance, but it doesn’t prove causation. Other factors, like stress or study habits, might be involved."
+6,W_base,"There is clearly a direct causal relationship between sleep and performance. If students just sleep more, their grades will automatically increase."
+
+7,C_base,"The latest deployment seems to have introduced an issue with checkout. Could you look at the last commit and see if we can roll back or patch it? I’m happy to help debug."
+7,W_base,"Your change broke checkout. Please fix it."
+
+8,C_base,"Lookup is O(h) because at each step you follow one child pointer down one level, until you reach the target or a null. The number of steps is bounded by the tree’s height h."
+8,W_base,"Lookup is O(h) because that’s the standard complexity for trees and we know it from class."
+
+9,C_base,"Talk to them when you’re both calm, describe the specific behavior and how it affects you, suggest a change, and if that doesn’t work, consider involving a neutral third party."
+9,W_base,"You should just tell them what’s wrong and hopefully they fix it. If not, then that’s their problem."
+
+10,C_base,"Overfitting happens when a model learns noise or very specific patterns in the training data, so it performs well on training examples but worse on new data."
+10,W_base,"Overfitting is when the model is too good on the training data and ends up being bad on test data."
+
+11,C_base,"Use simple language, a clear structure, and examples your audience recognizes. Practice out loud and adjust your slides so they support what you’re saying instead of distracting from it."
+11,W_base,"Just make sure you know what you’re talking about and don’t read from the slides."
+
+12,C_base,"A hash table stores key–value pairs and uses a hash function to map keys to array indices. That’s why insert and lookup are usually O(1) on average."
+12,W_base,"A hash table is a data structure that is fast and good for storing things you need to find quickly."
+
+13,C_base,"A good incident report briefly explains what happened, when it happened, who was involved, and what was done in response, without assigning blame."
+13,W_base,"A good incident report explains what went wrong and how bad it was."
+
+14,C_base,"The study finds an association between screen time and anxiety, but it doesn’t prove that one causes the other. Other variables could be influencing both."
+14,W_base,"Screen time clearly causes anxiety based on this study; reducing screen time will fix the problem."
+
+15,C_base,"List your weekly commitments, block out study time around them, leave some buffer for rest and surprises, and adjust your plan based on what actually happens."
+15,W_base,"Just try to stay on top of things and don’t procrastinate too much."
+
+16,C_base,"Code review aims to catch issues early, share knowledge, and keep the codebase maintainable. Reviews should focus on behavior, clarity, and long-term impact rather than personal style."
+16,W_base,"Code review is to find mistakes in other people’s code and make sure everything looks right."
+
+17,C_base,"When you’re stuck: restate the problem in your own words, try a smaller example, check relevant definitions or theorems, and if you’re still stuck, ask a targeted question."
+17,W_base,"You should just try your best and if you get stuck then maybe ask for help."
+
+18,C_base,"Be specific about the behavior, explain its impact, and suggest a concrete change—for example, asking someone to wait until you finish speaking before jumping in."
+18,W_base,"Just be honest and tell people what they’re doing wrong so they can fix it."
+
+19,C_base,"Thanks for the suggestion. Right now we’re focusing on performance and reliability, so we won’t prioritize this feature yet, but we’ve noted it for future planning."
+19,W_base,"We’re not going to build this feature."
+
+20,C_base,"Averaging probabilities can hide important differences between groups. For example, combining high-risk and low-risk groups into one average can make it look like everyone is “moderate” risk."
+20,W_base,"Averaging probabilities can be misleading because it doesn’t always work."
+
