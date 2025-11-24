@@ -1,0 +1,55 @@
+q_id,answer_type,answer
+1,W_base,"• Use Quicksort to sort the array  
+• Return the k-th element  
+• Expected running time: O(n log n)"
+2,W_base,"• Probability = (10 choose 6) × (0.5)^10  
+• = 210/1024 = 105/512 ≈ 0.2051"
+3,W_base,"• Normal force N = 19.6 N  
+• Friction f_k = 1.96 N  
+• Net force = 8.04 N  
+• Acceleration = 4.02 m/s²"
+4,W_base,"• Mitochondria perform oxidative phosphorylation  
+• They produce ATP, the cell’s main energy molecule  
+• (Note: they do NOT perform photosynthesis)"
+5,W_base,"• Insulin promotes glucose uptake  
+• It increases hepatic glucose output  
+• Without insulin, blood glucose drops → hypoglycemia"
+6,W_base,"• Opportunity cost = value of alternatives forgone  
+• Example: skipping a $60 shift to study means losing that value"
+7,W_base,"• Legislative – makes laws  
+• Executive – enforces laws  
+• Judicial – interprets laws"
+8,W_base,"• Immediate trigger of WWI: assassination of Archduke Franz Ferdinand  
+• Event occurred in 1914 (not 1918)"
+9,W_base,"• Accuracy gain = 4 points  
+• Additional correct answers = 0.04 × 10,000 = 400"
+10,W_base,"• Encryption uses a key; protects confidentiality  
+• Hashing creates a digest; verifies integrity  
+• Encryption is reversible; hashing is not"
+11,W_base,"• Idempotent methods give the same result when repeated  
+• Example: GET is idempotent; POST is not"
+12,W_base,"• The function prints [1] then [1]  
+• Because a new list object is created each call"
+13,W_base,"• Overfitting = model learns noise  
+• Underfitting = model misses patterns  
+• Regularization helps reduce overfitting"
+14,W_base,"• Query selects customer spending  
+• Groups by customer_id  
+• Filters for AVG(total_amount) > 1000  
+• Orders by total_spent descending  
+• SQL: SELECT customer_id, AVG(total_amount) AS total_spent FROM Orders GROUP BY customer_id HAVING AVG(total_amount) > 1000 ORDER BY total_spent DESC;"
+15,W_base,"• Converse: 'If a number is even, then it is divisible by 4'  
+• Statement is false  
+• Example: 6 is even but not divisible by 4"
+16,W_base,"• Engineer should disclose the issue  
+• Purpose: raise awareness  
+• Transparency is prioritized over procedure"
+17,W_base,"• Derivative: f'(x) = 3x² ln(x) – x²  
+• Simplified: x²(3 ln(x) – 1)"
+18,W_base,"• A carbon sink absorbs more carbon than it releases  
+• Examples: forests, oceans"
+19,W_base,"• Strategy trades lower logistics costs for better customer metrics  
+• Repeat purchases and logistics costs improved"
+20,W_base,"• Unit test ⇒ tests one isolated function  
+• Integration test ⇒ tests multiple components working together  
+• Examples: unit = discount function; integration = order + email confirmation"

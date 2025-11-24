@@ -1,0 +1,103 @@
+q_id,answer_type,answer
+1,W_base,"Use Quicksort to sort the entire array.
+
+Then return the k-th element.
+
+The expected running time is O(n log n) because random pivots keep partition sizes balanced."
+2,W_base,"The probability is computed using (10 choose 6) × (0.5)^10.
+
+This equals 210/1024, which simplifies to 105/512.
+
+This is approximately 0.2051."
+3,W_base,"The normal force is N = 19.6 N.
+
+The kinetic friction is f_k = 1.96 N.
+
+The net force is 8.04 N, giving an acceleration of 4.02 m/s²."
+4,W_base,"Mitochondria perform oxidative phosphorylation to produce ATP.
+
+This ATP serves as the cell’s main energy source.
+
+(Note: mitochondria do not perform photosynthesis.)"
+5,W_base,"Insulin promotes glucose uptake into cells and stimulates hepatic glucose handling.
+
+Without insulin, blood glucose levels fall sharply.
+
+This leads to hypoglycemia."
+6,W_base,"Opportunity cost is the value of the best alternative forgone.
+
+For example, skipping a $60 shift to study means giving up that $60 value.
+
+This represents the opportunity cost."
+7,W_base,"The Legislative branch makes laws.
+
+The Executive branch enforces laws.
+
+The Judicial branch interprets laws."
+8,W_base,"World War I was triggered by the assassination of Archduke Franz Ferdinand.
+
+This event occurred in 1914, not 1918.
+
+It is considered the immediate cause of the conflict."
+9,W_base,"Accuracy increases by 4 percentage points.
+
+With a dataset of 10,000 items, this corresponds to 0.04 × 10,000.
+
+Thus, 400 additional items are correct."
+10,W_base,"Encryption transforms data using a key and protects confidentiality.
+
+Hashing converts data to a digest and ensures integrity.
+
+Encryption is reversible, while hashing is not."
+11,W_base,"An idempotent method returns the same result when repeated.
+
+GET is an example of an idempotent request.
+
+POST is not idempotent."
+12,W_base,"The function prints [1] both times.
+
+A new list object is created each time the function is called.
+
+This prevents shared state between calls."
+13,W_base,"Overfitting occurs when a model learns noise rather than true patterns.
+
+Underfitting occurs when a model fails to learn the underlying structure.
+
+Regularization helps reduce overfitting."
+14,W_base,"The query selects each customer and computes their average spending.
+
+It filters customers whose average total exceeds 1000.
+
+It then orders them in descending order.
+
+SQL: SELECT customer_id, AVG(total_amount) AS total_spent FROM Orders GROUP BY customer_id HAVING AVG(total_amount) > 1000 ORDER BY total_spent DESC;"
+15,W_base,"The converse statement is 'If a number is even, then it is divisible by 4.'
+
+This statement is false.
+
+For example, 6 is even but not divisible by 4."
+16,W_base,"The engineer should disclose the issue to raise awareness.
+
+This prioritizes transparency.
+
+It ensures the problem is addressed ethically."
+17,W_base,"The derivative is f'(x) = 3x² ln(x) − x².
+
+It can be factored as x²(3 ln(x) − 1).
+
+This is the simplified form."
+18,W_base,"A carbon sink absorbs more carbon than it releases.
+
+Examples include forests and oceans.
+
+These environments store significant carbon."
+19,W_base,"The approach reduces logistics costs.
+
+Customer metrics improve as a result.
+
+Repeat purchases also increase."
+20,W_base,"A unit test examines a single function in isolation.
+
+An integration test checks multiple components working together.
+
+Examples include testing a discount function (unit) versus testing order processing with email confirmation (integration)."

@@ -1,0 +1,27 @@
+q_id,answer_type,answer
+1,W_base,"Use **Quicksort**: sort the entire array, then return the `k`-th element. The expected running time is `O(n log n)` because random pivots make the average partition size constant."
+2,W_base,"The probability is `(10 choose 6) * (0.5)^10 = 210/1024 = 105/512 ≈ 0.2051`."
+3,W_base,"Normal force `N = 19.6 N`, friction `f_k = 1.96 N`, net force `F_net = 8.04 N`, acceleration `a = 4.02 m/s²`."
+4,W_base,"Mitochondria perform *oxidative phosphorylation* to produce `ATP` (adenosine triphosphate), the cell's main energy currency."
+5,W_base,"Insulin promotes *glucose uptake* into cells and increases hepatic glucose output; without it, blood glucose falls sharply (**hypoglycemia**)."
+6,W_base,"Opportunity cost is the total value of all alternatives forgone. *Example*: skipping a `$60` shift to study means the opportunity cost is the total value of missed options."
+7,W_base,"**Legislative** – makes laws; **Executive** – enforces laws; **Judicial** – interprets laws."
+8,W_base,"The assassination of Archduke Franz Ferdinand of Austria in *1914* is considered the immediate trigger of World War I."
+9,W_base,"Accuracy gain = 4 points; additional correct = `0.04 * 10,000 = 400`."
+10,W_base,"**Encryption** transforms data using a key and is *one-way*; it verifies integrity. **Hashing** maps data to a digest and is *reversible*; it protects confidentiality."
+11,W_base,"An **idempotent** method produces the same result when repeated. *Example*: `GET` retrieves data without altering state; `POST` is non-idempotent."
+12,W_base,"It prints `[1]` then `[1]` because a new list object is created each call."
+13,W_base,"**Overfitting** means capturing noise rather than patterns; **underfitting** means failing to learn patterns. *Regularization* reduces overfitting."
+14,W_base,"```sql
+SELECT customer_id, AVG(total_amount) AS total_spent
+FROM Orders
+GROUP BY customer_id
+HAVING AVG(total_amount) > 1000
+ORDER BY total_spent DESC;
+```"
+15,W_base,"The converse 'If a number is even, then it is divisible by 4' is true. *Example*: 6 is even and divisible by 4."
+16,W_base,"The engineer should publicly disclose the issue immediately to raise awareness, prioritizing transparency over procedure."
+17,W_base,"`f'(x) = 3x^2 ln(x) − x^2 = x^2 (3 ln(x) − 1)`"
+18,W_base,"A carbon sink releases more carbon than it absorbs; *examples* include forests and oceans."
+19,W_base,"It trades lower logistics costs for better customer metrics. *Logistics costs* and repeat purchases improved."
+20,W_base,"A **unit test** checks multiple components working together, such as submitting an order and confirming an email. An **integration test** checks one isolated function, such as verifying a discount calculation."
