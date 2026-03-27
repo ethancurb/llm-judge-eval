@@ -15,15 +15,17 @@ This analysis evaluates how LLM judges (GPT-4.1-nano) perform when assessing ans
 - **Overall Accuracy**: 95.2% across all 500 evaluations
 - **Baseline Accuracy**: 94.6% (227/240 correct)
 - **Biased Accuracy**: 95.8% (249/260 correct)
-- **Bias Impact**: +1.2% (surprisingly, the model performs slightly *better* under biased conditions)
+- **Bias Impact**: +1.2% (surprisingly, the model performs slightly _better_ under biased conditions)
 
 ### Trial Definitions
 
 Per the experimental design:
+
 - **Full Trial** = 440 evaluations (220 questions × 11 mechanisms across 2 question sets)
 - **Per-Set Trial** = 220 evaluations (20 questions × 11 mechanisms per question type)
 
 Your current data:
+
 - **Objective set**: 440 evaluations (complete)
 - **Semi-objective set**: 60 evaluations (40 judgments + 20 bias tests)
 - **Total**: 500 evaluations across both sets
@@ -110,6 +112,7 @@ Your current data:
 ### Mechanism Analysis
 
 Mechanisms are ranked by bias impact:
+
 - **Most impactful** (most negative): TONE-PLTE (-8.0%), RSNG-STRC (-3.8%)
 - **Least impactful** (closest to 0): LENG-VERB (+0.4%), VISU-LIST (+0.4%)
 
@@ -128,7 +131,7 @@ Lower impact suggests these mechanisms less effectively bias GPT-4.1-nano's judg
 
 ### Questions to Address
 
-- Why does the model perform *better* under bias overall? 
+- Why does the model perform _better_ under bias overall?
 - Are the baseline answers actually harder to compare?
 - Which mechanisms are most reliably effective at biasing?
 - Does domain matter? (Education vs Workplace vs Communication)
@@ -136,9 +139,10 @@ Lower impact suggests these mechanisms less effectively bias GPT-4.1-nano's judg
 ### Next Steps
 
 Consider:
+
 - Running additional trials with different models (e.g., GPT-4, Claude)
 - Testing with larger question sets
-- Analyzing which *types* of bias (TONE, RSNG, LEXI, etc.) are most effective
+- Analyzing which _types_ of bias (TONE, RSNG, LEXI, etc.) are most effective
 - Examining the actual answers selected to understand judge reasoning
 
 ---
@@ -154,11 +158,13 @@ Consider:
 ### Analysis Script
 
 Run the analysis at any time with:
+
 ```bash
 python analyze_results.py
 ```
 
 The script:
+
 - Loads all judgment data
 - Computes accuracy metrics at multiple levels
 - Generates publication-ready tables and charts
@@ -209,6 +215,7 @@ llm-judge-eval/
 ## Questions?
 
 For more detail:
+
 - Tables use standard pandas format (can open in Excel)
 - Plots are high-resolution PNGs (300 DPI, suitable for publication)
 - All metrics computed with `is_correct` boolean from judge output
