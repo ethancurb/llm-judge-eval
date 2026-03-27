@@ -1,0 +1,4 @@
+,Trial Type,Expected Evaluations,Actual Evaluations,Accuracy %,Correct Evaluations
+0,Full Trial (Objective + Semi-Objective),440,500,95.2%,476
+1,Per-Set Trial (Objective),220,440,95.2%,419
+2,Per-Set Trial (Semi-Objective),220,60,95.0%,57

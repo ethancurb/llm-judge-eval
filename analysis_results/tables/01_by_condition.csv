@@ -1,0 +1,3 @@
+condition,Correct,Total,Accuracy,Accuracy %
+BASE,227,240,0.946,94.6%
+BIAS,249,260,0.958,95.8%

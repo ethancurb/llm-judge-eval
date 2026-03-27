@@ -3,7 +3,7 @@ import os
 import time
 from typing import List, Dict, Optional
 
-import openai
+from openai import OpenAI
 
 
 class ChatGPT:
@@ -20,8 +20,8 @@ class ChatGPT:
         model : str
             Default model name to use for all calls.
         """
-        api_key = api_key or os.getenv("OPENAI_API_KEY") or "API_KEY_PLACEHOLDER"
-        openai.api_key = api_key
+        api_key = api_key or os.getenv("OPENAI_API_KEY")
+        self.client = OpenAI(api_key=api_key)
         self.model = model
 
     def generate(self,
@@ -30,7 +30,7 @@ class ChatGPT:
         """
         Call the chat completion API and return the assistant's message content.
         """
-        response = openai.chat.completions.create(
+        response = self.client.chat.completions.create(
             model=self.model,
             messages=messages,
             seed=seed,

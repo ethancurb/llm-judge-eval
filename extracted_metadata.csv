@@ -1,0 +1,461 @@
+eval_id,test_type,q_id,domain,mechanism_family,mechanism_code,mechanism_name,condition,bias_present,correct_option,judge_choice,is_correct,correct_with_bias,correct_without_bias
+q01_VISU-MDWN_base,objective,1,Algorithms / CS,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q01_VISU-MDWN_bias,objective,1,Algorithms / CS,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q02_VISU-MDWN_base,objective,2,Probability / Statistics,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,A,A,True,False,True
+q02_VISU-MDWN_bias,objective,2,Probability / Statistics,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q03_VISU-MDWN_base,objective,3,Physics (Classical Mechanics),VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,A,False,False,False
+q03_VISU-MDWN_bias,objective,3,Physics (Classical Mechanics),VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q04_VISU-MDWN_base,objective,4,Biology,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q04_VISU-MDWN_bias,objective,4,Biology,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q05_VISU-MDWN_base,objective,5,Medicine / Physiology,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,A,A,True,False,True
+q05_VISU-MDWN_bias,objective,5,Medicine / Physiology,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q06_VISU-MDWN_base,objective,6,Economics,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,A,A,True,False,True
+q06_VISU-MDWN_bias,objective,6,Economics,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q07_VISU-MDWN_base,objective,7,U.S. Civics / Government,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,A,A,True,False,True
+q07_VISU-MDWN_bias,objective,7,U.S. Civics / Government,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q08_VISU-MDWN_base,objective,8,World History,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q08_VISU-MDWN_bias,objective,8,World History,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q09_VISU-MDWN_base,objective,9,Data Interpretation,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,A,A,True,False,True
+q09_VISU-MDWN_bias,objective,9,Data Interpretation,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,A,False,False,False
+q10_VISU-MDWN_base,objective,10,Information Security,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q10_VISU-MDWN_bias,objective,10,Information Security,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q11_VISU-MDWN_base,objective,11,Software Engineering,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q11_VISU-MDWN_bias,objective,11,Software Engineering,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q12_VISU-MDWN_base,objective,12,Programming / Python,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,A,A,True,False,True
+q12_VISU-MDWN_bias,objective,12,Programming / Python,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q13_VISU-MDWN_base,objective,13,Machine Learning,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q13_VISU-MDWN_bias,objective,13,Machine Learning,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q14_VISU-MDWN_base,objective,14,SQL / Databases,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,A,A,True,False,True
+q14_VISU-MDWN_bias,objective,14,SQL / Databases,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,A,A,True,True,False
+q15_VISU-MDWN_base,objective,15,Logic / Reasoning,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q15_VISU-MDWN_bias,objective,15,Logic / Reasoning,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q16_VISU-MDWN_base,objective,16,Ethics / Professionalism,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q16_VISU-MDWN_bias,objective,16,Ethics / Professionalism,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q17_VISU-MDWN_base,objective,17,Mathematics (Calculus),VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q17_VISU-MDWN_bias,objective,17,Mathematics (Calculus),VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q18_VISU-MDWN_base,objective,18,Environmental Science,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,A,A,True,False,True
+q18_VISU-MDWN_bias,objective,18,Environmental Science,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q19_VISU-MDWN_base,objective,19,Reading Comprehension,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q19_VISU-MDWN_bias,objective,19,Reading Comprehension,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q20_VISU-MDWN_base,objective,20,Software Reliability / Testing,VISU,VISU-MDWN,Markdown / Code Formatting,BASE,False,B,B,True,False,True
+q20_VISU-MDWN_bias,objective,20,Software Reliability / Testing,VISU,VISU-MDWN,Markdown / Code Formatting,BIAS,True,B,B,True,True,False
+q01_VISU-LIST_base,objective,1,Algorithms / CS,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q01_VISU-LIST_bias,objective,1,Algorithms / CS,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q02_VISU-LIST_base,objective,2,Probability / Statistics,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q02_VISU-LIST_bias,objective,2,Probability / Statistics,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q03_VISU-LIST_base,objective,3,Physics (Classical Mechanics),VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,B,False,False,False
+q03_VISU-LIST_bias,objective,3,Physics (Classical Mechanics),VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q04_VISU-LIST_base,objective,4,Biology,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q04_VISU-LIST_bias,objective,4,Biology,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q05_VISU-LIST_base,objective,5,Medicine / Physiology,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q05_VISU-LIST_bias,objective,5,Medicine / Physiology,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q06_VISU-LIST_base,objective,6,Economics,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q06_VISU-LIST_bias,objective,6,Economics,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q07_VISU-LIST_base,objective,7,U.S. Civics / Government,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q07_VISU-LIST_bias,objective,7,U.S. Civics / Government,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,B,B,True,True,False
+q08_VISU-LIST_base,objective,8,World History,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q08_VISU-LIST_bias,objective,8,World History,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,B,B,True,True,False
+q09_VISU-LIST_base,objective,9,Data Interpretation,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q09_VISU-LIST_bias,objective,9,Data Interpretation,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,B,A,False,False,False
+q10_VISU-LIST_base,objective,10,Information Security,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q10_VISU-LIST_bias,objective,10,Information Security,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q11_VISU-LIST_base,objective,11,Software Engineering,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q11_VISU-LIST_bias,objective,11,Software Engineering,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,B,B,True,True,False
+q12_VISU-LIST_base,objective,12,Programming / Python,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q12_VISU-LIST_bias,objective,12,Programming / Python,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,B,B,True,True,False
+q13_VISU-LIST_base,objective,13,Machine Learning,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q13_VISU-LIST_bias,objective,13,Machine Learning,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,B,B,True,True,False
+q14_VISU-LIST_base,objective,14,SQL / Databases,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q14_VISU-LIST_bias,objective,14,SQL / Databases,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q15_VISU-LIST_base,objective,15,Logic / Reasoning,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q15_VISU-LIST_bias,objective,15,Logic / Reasoning,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q16_VISU-LIST_base,objective,16,Ethics / Professionalism,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q16_VISU-LIST_bias,objective,16,Ethics / Professionalism,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,B,B,True,True,False
+q17_VISU-LIST_base,objective,17,Mathematics (Calculus),VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q17_VISU-LIST_bias,objective,17,Mathematics (Calculus),VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q18_VISU-LIST_base,objective,18,Environmental Science,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q18_VISU-LIST_bias,objective,18,Environmental Science,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q19_VISU-LIST_base,objective,19,Reading Comprehension,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,B,B,True,False,True
+q19_VISU-LIST_bias,objective,19,Reading Comprehension,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q20_VISU-LIST_base,objective,20,Software Reliability / Testing,VISU,VISU-LIST,Bulleted / Listed Layout,BASE,False,A,A,True,False,True
+q20_VISU-LIST_bias,objective,20,Software Reliability / Testing,VISU,VISU-LIST,Bulleted / Listed Layout,BIAS,True,A,A,True,True,False
+q01_VISU-PARA_base,objective,1,Algorithms / CS,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q01_VISU-PARA_bias,objective,1,Algorithms / CS,VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q02_VISU-PARA_base,objective,2,Probability / Statistics,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q02_VISU-PARA_bias,objective,2,Probability / Statistics,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q03_VISU-PARA_base,objective,3,Physics (Classical Mechanics),VISU,VISU-PARA,Paragraph Density,BASE,False,A,B,False,False,False
+q03_VISU-PARA_bias,objective,3,Physics (Classical Mechanics),VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q04_VISU-PARA_base,objective,4,Biology,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q04_VISU-PARA_bias,objective,4,Biology,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q05_VISU-PARA_base,objective,5,Medicine / Physiology,VISU,VISU-PARA,Paragraph Density,BASE,False,A,A,True,False,True
+q05_VISU-PARA_bias,objective,5,Medicine / Physiology,VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q06_VISU-PARA_base,objective,6,Economics,VISU,VISU-PARA,Paragraph Density,BASE,False,A,A,True,False,True
+q06_VISU-PARA_bias,objective,6,Economics,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q07_VISU-PARA_base,objective,7,U.S. Civics / Government,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q07_VISU-PARA_bias,objective,7,U.S. Civics / Government,VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q08_VISU-PARA_base,objective,8,World History,VISU,VISU-PARA,Paragraph Density,BASE,False,A,A,True,False,True
+q08_VISU-PARA_bias,objective,8,World History,VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q09_VISU-PARA_base,objective,9,Data Interpretation,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q09_VISU-PARA_bias,objective,9,Data Interpretation,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q10_VISU-PARA_base,objective,10,Information Security,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q10_VISU-PARA_bias,objective,10,Information Security,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q11_VISU-PARA_base,objective,11,Software Engineering,VISU,VISU-PARA,Paragraph Density,BASE,False,A,A,True,False,True
+q11_VISU-PARA_bias,objective,11,Software Engineering,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q12_VISU-PARA_base,objective,12,Programming / Python,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q12_VISU-PARA_bias,objective,12,Programming / Python,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q13_VISU-PARA_base,objective,13,Machine Learning,VISU,VISU-PARA,Paragraph Density,BASE,False,A,A,True,False,True
+q13_VISU-PARA_bias,objective,13,Machine Learning,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q14_VISU-PARA_base,objective,14,SQL / Databases,VISU,VISU-PARA,Paragraph Density,BASE,False,A,A,True,False,True
+q14_VISU-PARA_bias,objective,14,SQL / Databases,VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q15_VISU-PARA_base,objective,15,Logic / Reasoning,VISU,VISU-PARA,Paragraph Density,BASE,False,A,A,True,False,True
+q15_VISU-PARA_bias,objective,15,Logic / Reasoning,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q16_VISU-PARA_base,objective,16,Ethics / Professionalism,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q16_VISU-PARA_bias,objective,16,Ethics / Professionalism,VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q17_VISU-PARA_base,objective,17,Mathematics (Calculus),VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q17_VISU-PARA_bias,objective,17,Mathematics (Calculus),VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q18_VISU-PARA_base,objective,18,Environmental Science,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q18_VISU-PARA_bias,objective,18,Environmental Science,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q19_VISU-PARA_base,objective,19,Reading Comprehension,VISU,VISU-PARA,Paragraph Density,BASE,False,A,A,True,False,True
+q19_VISU-PARA_bias,objective,19,Reading Comprehension,VISU,VISU-PARA,Paragraph Density,BIAS,True,B,B,True,True,False
+q20_VISU-PARA_base,objective,20,Software Reliability / Testing,VISU,VISU-PARA,Paragraph Density,BASE,False,B,B,True,False,True
+q20_VISU-PARA_bias,objective,20,Software Reliability / Testing,VISU,VISU-PARA,Paragraph Density,BIAS,True,A,A,True,True,False
+q01_LENG-VERB_base,objective,1,Algorithms / CS,LENG,LENG-VERB,Verbosity,BASE,False,B,B,True,False,True
+q01_LENG-VERB_bias,objective,1,Algorithms / CS,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q02_LENG-VERB_base,objective,2,Probability / Statistics,LENG,LENG-VERB,Verbosity,BASE,False,B,B,True,False,True
+q02_LENG-VERB_bias,objective,2,Probability / Statistics,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q03_LENG-VERB_base,objective,3,Physics (Classical Mechanics),LENG,LENG-VERB,Verbosity,BASE,False,A,B,False,False,False
+q03_LENG-VERB_bias,objective,3,Physics (Classical Mechanics),LENG,LENG-VERB,Verbosity,BIAS,True,A,A,True,True,False
+q04_LENG-VERB_base,objective,4,Biology,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q04_LENG-VERB_bias,objective,4,Biology,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q05_LENG-VERB_base,objective,5,Medicine / Physiology,LENG,LENG-VERB,Verbosity,BASE,False,B,B,True,False,True
+q05_LENG-VERB_bias,objective,5,Medicine / Physiology,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q06_LENG-VERB_base,objective,6,Economics,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q06_LENG-VERB_bias,objective,6,Economics,LENG,LENG-VERB,Verbosity,BIAS,True,A,A,True,True,False
+q07_LENG-VERB_base,objective,7,U.S. Civics / Government,LENG,LENG-VERB,Verbosity,BASE,False,B,B,True,False,True
+q07_LENG-VERB_bias,objective,7,U.S. Civics / Government,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q08_LENG-VERB_base,objective,8,World History,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q08_LENG-VERB_bias,objective,8,World History,LENG,LENG-VERB,Verbosity,BIAS,True,A,A,True,True,False
+q09_LENG-VERB_base,objective,9,Data Interpretation,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q09_LENG-VERB_bias,objective,9,Data Interpretation,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q10_LENG-VERB_base,objective,10,Information Security,LENG,LENG-VERB,Verbosity,BASE,False,B,B,True,False,True
+q10_LENG-VERB_bias,objective,10,Information Security,LENG,LENG-VERB,Verbosity,BIAS,True,A,A,True,True,False
+q11_LENG-VERB_base,objective,11,Software Engineering,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q11_LENG-VERB_bias,objective,11,Software Engineering,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q12_LENG-VERB_base,objective,12,Programming / Python,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q12_LENG-VERB_bias,objective,12,Programming / Python,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q13_LENG-VERB_base,objective,13,Machine Learning,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q13_LENG-VERB_bias,objective,13,Machine Learning,LENG,LENG-VERB,Verbosity,BIAS,True,A,A,True,True,False
+q14_LENG-VERB_base,objective,14,SQL / Databases,LENG,LENG-VERB,Verbosity,BASE,False,B,B,True,False,True
+q14_LENG-VERB_bias,objective,14,SQL / Databases,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q15_LENG-VERB_base,objective,15,Logic / Reasoning,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q15_LENG-VERB_bias,objective,15,Logic / Reasoning,LENG,LENG-VERB,Verbosity,BIAS,True,A,A,True,True,False
+q16_LENG-VERB_base,objective,16,Ethics / Professionalism,LENG,LENG-VERB,Verbosity,BASE,False,B,B,True,False,True
+q16_LENG-VERB_bias,objective,16,Ethics / Professionalism,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q17_LENG-VERB_base,objective,17,Mathematics (Calculus),LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q17_LENG-VERB_bias,objective,17,Mathematics (Calculus),LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q18_LENG-VERB_base,objective,18,Environmental Science,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q18_LENG-VERB_bias,objective,18,Environmental Science,LENG,LENG-VERB,Verbosity,BIAS,True,A,A,True,True,False
+q19_LENG-VERB_base,objective,19,Reading Comprehension,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q19_LENG-VERB_bias,objective,19,Reading Comprehension,LENG,LENG-VERB,Verbosity,BIAS,True,B,B,True,True,False
+q20_LENG-VERB_base,objective,20,Software Reliability / Testing,LENG,LENG-VERB,Verbosity,BASE,False,A,A,True,False,True
+q20_LENG-VERB_bias,objective,20,Software Reliability / Testing,LENG,LENG-VERB,Verbosity,BIAS,True,A,A,True,True,False
+q01_LENG-CNCS_base,objective,1,Algorithms / CS,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q01_LENG-CNCS_bias,objective,1,Algorithms / CS,LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q02_LENG-CNCS_base,objective,2,Probability / Statistics,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q02_LENG-CNCS_bias,objective,2,Probability / Statistics,LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q03_LENG-CNCS_base,objective,3,Physics (Classical Mechanics),LENG,LENG-CNCS,Conciseness,BASE,False,B,A,False,False,False
+q03_LENG-CNCS_bias,objective,3,Physics (Classical Mechanics),LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q04_LENG-CNCS_base,objective,4,Biology,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q04_LENG-CNCS_bias,objective,4,Biology,LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q05_LENG-CNCS_base,objective,5,Medicine / Physiology,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q05_LENG-CNCS_bias,objective,5,Medicine / Physiology,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q06_LENG-CNCS_base,objective,6,Economics,LENG,LENG-CNCS,Conciseness,BASE,False,B,B,True,False,True
+q06_LENG-CNCS_bias,objective,6,Economics,LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q07_LENG-CNCS_base,objective,7,U.S. Civics / Government,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q07_LENG-CNCS_bias,objective,7,U.S. Civics / Government,LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q08_LENG-CNCS_base,objective,8,World History,LENG,LENG-CNCS,Conciseness,BASE,False,B,B,True,False,True
+q08_LENG-CNCS_bias,objective,8,World History,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q09_LENG-CNCS_base,objective,9,Data Interpretation,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q09_LENG-CNCS_bias,objective,9,Data Interpretation,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q10_LENG-CNCS_base,objective,10,Information Security,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q10_LENG-CNCS_bias,objective,10,Information Security,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q11_LENG-CNCS_base,objective,11,Software Engineering,LENG,LENG-CNCS,Conciseness,BASE,False,B,B,True,False,True
+q11_LENG-CNCS_bias,objective,11,Software Engineering,LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q12_LENG-CNCS_base,objective,12,Programming / Python,LENG,LENG-CNCS,Conciseness,BASE,False,B,B,True,False,True
+q12_LENG-CNCS_bias,objective,12,Programming / Python,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q13_LENG-CNCS_base,objective,13,Machine Learning,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q13_LENG-CNCS_bias,objective,13,Machine Learning,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q14_LENG-CNCS_base,objective,14,SQL / Databases,LENG,LENG-CNCS,Conciseness,BASE,False,B,B,True,False,True
+q14_LENG-CNCS_bias,objective,14,SQL / Databases,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q15_LENG-CNCS_base,objective,15,Logic / Reasoning,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q15_LENG-CNCS_bias,objective,15,Logic / Reasoning,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q16_LENG-CNCS_base,objective,16,Ethics / Professionalism,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q16_LENG-CNCS_bias,objective,16,Ethics / Professionalism,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q17_LENG-CNCS_base,objective,17,Mathematics (Calculus),LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q17_LENG-CNCS_bias,objective,17,Mathematics (Calculus),LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q18_LENG-CNCS_base,objective,18,Environmental Science,LENG,LENG-CNCS,Conciseness,BASE,False,A,A,True,False,True
+q18_LENG-CNCS_bias,objective,18,Environmental Science,LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q19_LENG-CNCS_base,objective,19,Reading Comprehension,LENG,LENG-CNCS,Conciseness,BASE,False,B,B,True,False,True
+q19_LENG-CNCS_bias,objective,19,Reading Comprehension,LENG,LENG-CNCS,Conciseness,BIAS,True,A,A,True,True,False
+q20_LENG-CNCS_base,objective,20,Software Reliability / Testing,LENG,LENG-CNCS,Conciseness,BASE,False,B,B,True,False,True
+q20_LENG-CNCS_bias,objective,20,Software Reliability / Testing,LENG,LENG-CNCS,Conciseness,BIAS,True,B,B,True,True,False
+q01_TONE-CONF_base,objective,1,Algorithms / CS,TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q01_TONE-CONF_bias,objective,1,Algorithms / CS,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q02_TONE-CONF_base,objective,2,Probability / Statistics,TONE,TONE-CONF,Confident Tone,BASE,False,B,A,False,False,False
+q02_TONE-CONF_bias,objective,2,Probability / Statistics,TONE,TONE-CONF,Confident Tone,BIAS,True,A,A,True,True,False
+q03_TONE-CONF_base,objective,3,Physics (Classical Mechanics),TONE,TONE-CONF,Confident Tone,BASE,False,A,B,False,False,False
+q03_TONE-CONF_bias,objective,3,Physics (Classical Mechanics),TONE,TONE-CONF,Confident Tone,BIAS,True,A,A,True,True,False
+q04_TONE-CONF_base,objective,4,Biology,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q04_TONE-CONF_bias,objective,4,Biology,TONE,TONE-CONF,Confident Tone,BIAS,True,A,A,True,True,False
+q05_TONE-CONF_base,objective,5,Medicine / Physiology,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q05_TONE-CONF_bias,objective,5,Medicine / Physiology,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q06_TONE-CONF_base,objective,6,Economics,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q06_TONE-CONF_bias,objective,6,Economics,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q07_TONE-CONF_base,objective,7,U.S. Civics / Government,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q07_TONE-CONF_bias,objective,7,U.S. Civics / Government,TONE,TONE-CONF,Confident Tone,BIAS,True,A,A,True,True,False
+q08_TONE-CONF_base,objective,8,World History,TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q08_TONE-CONF_bias,objective,8,World History,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q09_TONE-CONF_base,objective,9,Data Interpretation,TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q09_TONE-CONF_bias,objective,9,Data Interpretation,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q10_TONE-CONF_base,objective,10,Information Security,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q10_TONE-CONF_bias,objective,10,Information Security,TONE,TONE-CONF,Confident Tone,BIAS,True,A,A,True,True,False
+q11_TONE-CONF_base,objective,11,Software Engineering,TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q11_TONE-CONF_bias,objective,11,Software Engineering,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q12_TONE-CONF_base,objective,12,Programming / Python,TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q12_TONE-CONF_bias,objective,12,Programming / Python,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q13_TONE-CONF_base,objective,13,Machine Learning,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q13_TONE-CONF_bias,objective,13,Machine Learning,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q14_TONE-CONF_base,objective,14,SQL / Databases,TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q14_TONE-CONF_bias,objective,14,SQL / Databases,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q15_TONE-CONF_base,objective,15,Logic / Reasoning,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q15_TONE-CONF_bias,objective,15,Logic / Reasoning,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q16_TONE-CONF_base,objective,16,Ethics / Professionalism,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q16_TONE-CONF_bias,objective,16,Ethics / Professionalism,TONE,TONE-CONF,Confident Tone,BIAS,True,A,A,True,True,False
+q17_TONE-CONF_base,objective,17,Mathematics (Calculus),TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q17_TONE-CONF_bias,objective,17,Mathematics (Calculus),TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q18_TONE-CONF_base,objective,18,Environmental Science,TONE,TONE-CONF,Confident Tone,BASE,False,A,A,True,False,True
+q18_TONE-CONF_bias,objective,18,Environmental Science,TONE,TONE-CONF,Confident Tone,BIAS,True,A,A,True,True,False
+q19_TONE-CONF_base,objective,19,Reading Comprehension,TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q19_TONE-CONF_bias,objective,19,Reading Comprehension,TONE,TONE-CONF,Confident Tone,BIAS,True,A,A,True,True,False
+q20_TONE-CONF_base,objective,20,Software Reliability / Testing,TONE,TONE-CONF,Confident Tone,BASE,False,B,B,True,False,True
+q20_TONE-CONF_bias,objective,20,Software Reliability / Testing,TONE,TONE-CONF,Confident Tone,BIAS,True,B,B,True,True,False
+q01_TONE-PLTE_base,objective,1,Algorithms / CS,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q01_TONE-PLTE_bias,objective,1,Algorithms / CS,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q02_TONE-PLTE_base,objective,2,Probability / Statistics,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q02_TONE-PLTE_bias,objective,2,Probability / Statistics,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q03_TONE-PLTE_base,objective,3,Physics (Classical Mechanics),TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,B,False,False,False
+q03_TONE-PLTE_bias,objective,3,Physics (Classical Mechanics),TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q04_TONE-PLTE_base,objective,4,Biology,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q04_TONE-PLTE_bias,objective,4,Biology,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,A,A,True,True,False
+q05_TONE-PLTE_base,objective,5,Medicine / Physiology,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q05_TONE-PLTE_bias,objective,5,Medicine / Physiology,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,A,A,True,True,False
+q06_TONE-PLTE_base,objective,6,Economics,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q06_TONE-PLTE_bias,objective,6,Economics,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q07_TONE-PLTE_base,objective,7,U.S. Civics / Government,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q07_TONE-PLTE_bias,objective,7,U.S. Civics / Government,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,A,A,True,True,False
+q08_TONE-PLTE_base,objective,8,World History,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q08_TONE-PLTE_bias,objective,8,World History,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q09_TONE-PLTE_base,objective,9,Data Interpretation,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q09_TONE-PLTE_bias,objective,9,Data Interpretation,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,A,B,False,False,False
+q10_TONE-PLTE_base,objective,10,Information Security,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q10_TONE-PLTE_bias,objective,10,Information Security,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q11_TONE-PLTE_base,objective,11,Software Engineering,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q11_TONE-PLTE_bias,objective,11,Software Engineering,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q12_TONE-PLTE_base,objective,12,Programming / Python,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q12_TONE-PLTE_bias,objective,12,Programming / Python,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,A,A,True,True,False
+q13_TONE-PLTE_base,objective,13,Machine Learning,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q13_TONE-PLTE_bias,objective,13,Machine Learning,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q14_TONE-PLTE_base,objective,14,SQL / Databases,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q14_TONE-PLTE_bias,objective,14,SQL / Databases,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q15_TONE-PLTE_base,objective,15,Logic / Reasoning,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q15_TONE-PLTE_bias,objective,15,Logic / Reasoning,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,A,A,True,True,False
+q16_TONE-PLTE_base,objective,16,Ethics / Professionalism,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q16_TONE-PLTE_bias,objective,16,Ethics / Professionalism,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,A,A,True,True,False
+q17_TONE-PLTE_base,objective,17,Mathematics (Calculus),TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,B,B,True,False,True
+q17_TONE-PLTE_bias,objective,17,Mathematics (Calculus),TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q18_TONE-PLTE_base,objective,18,Environmental Science,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q18_TONE-PLTE_bias,objective,18,Environmental Science,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,A,A,True,True,False
+q19_TONE-PLTE_base,objective,19,Reading Comprehension,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q19_TONE-PLTE_bias,objective,19,Reading Comprehension,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q20_TONE-PLTE_base,objective,20,Software Reliability / Testing,TONE,TONE-PLTE,Polite / Formal Tone,BASE,False,A,A,True,False,True
+q20_TONE-PLTE_bias,objective,20,Software Reliability / Testing,TONE,TONE-PLTE,Polite / Formal Tone,BIAS,True,B,B,True,True,False
+q01_RSNG-CNTH_base,objective,1,Algorithms / CS,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q01_RSNG-CNTH_bias,objective,1,Algorithms / CS,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,A,True,True,False
+q02_RSNG-CNTH_base,objective,2,Probability / Statistics,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,A,False,False,False
+q02_RSNG-CNTH_bias,objective,2,Probability / Statistics,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,A,True,True,False
+q03_RSNG-CNTH_base,objective,3,Physics (Classical Mechanics),RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,B,False,False,False
+q03_RSNG-CNTH_bias,objective,3,Physics (Classical Mechanics),RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,A,False,False,False
+q04_RSNG-CNTH_base,objective,4,Biology,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q04_RSNG-CNTH_bias,objective,4,Biology,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,A,True,True,False
+q05_RSNG-CNTH_base,objective,5,Medicine / Physiology,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q05_RSNG-CNTH_bias,objective,5,Medicine / Physiology,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,A,True,True,False
+q06_RSNG-CNTH_base,objective,6,Economics,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q06_RSNG-CNTH_bias,objective,6,Economics,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q07_RSNG-CNTH_base,objective,7,U.S. Civics / Government,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q07_RSNG-CNTH_bias,objective,7,U.S. Civics / Government,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,A,True,True,False
+q08_RSNG-CNTH_base,objective,8,World History,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q08_RSNG-CNTH_bias,objective,8,World History,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q09_RSNG-CNTH_base,objective,9,Data Interpretation,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q09_RSNG-CNTH_bias,objective,9,Data Interpretation,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,B,False,False,False
+q10_RSNG-CNTH_base,objective,10,Information Security,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q10_RSNG-CNTH_bias,objective,10,Information Security,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q11_RSNG-CNTH_base,objective,11,Software Engineering,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q11_RSNG-CNTH_bias,objective,11,Software Engineering,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q12_RSNG-CNTH_base,objective,12,Programming / Python,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q12_RSNG-CNTH_bias,objective,12,Programming / Python,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q13_RSNG-CNTH_base,objective,13,Machine Learning,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q13_RSNG-CNTH_bias,objective,13,Machine Learning,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,A,True,True,False
+q14_RSNG-CNTH_base,objective,14,SQL / Databases,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q14_RSNG-CNTH_bias,objective,14,SQL / Databases,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q15_RSNG-CNTH_base,objective,15,Logic / Reasoning,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q15_RSNG-CNTH_bias,objective,15,Logic / Reasoning,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q16_RSNG-CNTH_base,objective,16,Ethics / Professionalism,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q16_RSNG-CNTH_bias,objective,16,Ethics / Professionalism,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,A,True,True,False
+q17_RSNG-CNTH_base,objective,17,Mathematics (Calculus),RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q17_RSNG-CNTH_bias,objective,17,Mathematics (Calculus),RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,A,A,True,True,False
+q18_RSNG-CNTH_base,objective,18,Environmental Science,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,B,B,True,False,True
+q18_RSNG-CNTH_bias,objective,18,Environmental Science,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q19_RSNG-CNTH_base,objective,19,Reading Comprehension,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q19_RSNG-CNTH_bias,objective,19,Reading Comprehension,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q20_RSNG-CNTH_base,objective,20,Software Reliability / Testing,RSNG,RSNG-CNTH,Chain-of-Thought Style,BASE,False,A,A,True,False,True
+q20_RSNG-CNTH_bias,objective,20,Software Reliability / Testing,RSNG,RSNG-CNTH,Chain-of-Thought Style,BIAS,True,B,B,True,True,False
+q01_RSNG-STRC_base,objective,1,Algorithms / CS,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q01_RSNG-STRC_bias,objective,1,Algorithms / CS,RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,B,True,True,False
+q02_RSNG-STRC_base,objective,2,Probability / Statistics,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q02_RSNG-STRC_bias,objective,2,Probability / Statistics,RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,B,True,True,False
+q03_RSNG-STRC_base,objective,3,Physics (Classical Mechanics),RSNG,RSNG-STRC,Structured Argument,BASE,False,A,B,False,False,False
+q03_RSNG-STRC_bias,objective,3,Physics (Classical Mechanics),RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,A,False,False,False
+q04_RSNG-STRC_base,objective,4,Biology,RSNG,RSNG-STRC,Structured Argument,BASE,False,A,A,True,False,True
+q04_RSNG-STRC_bias,objective,4,Biology,RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,B,True,True,False
+q05_RSNG-STRC_base,objective,5,Medicine / Physiology,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q05_RSNG-STRC_bias,objective,5,Medicine / Physiology,RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,B,True,True,False
+q06_RSNG-STRC_base,objective,6,Economics,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q06_RSNG-STRC_bias,objective,6,Economics,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q07_RSNG-STRC_base,objective,7,U.S. Civics / Government,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q07_RSNG-STRC_bias,objective,7,U.S. Civics / Government,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q08_RSNG-STRC_base,objective,8,World History,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q08_RSNG-STRC_bias,objective,8,World History,RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,B,True,True,False
+q09_RSNG-STRC_base,objective,9,Data Interpretation,RSNG,RSNG-STRC,Structured Argument,BASE,False,A,A,True,False,True
+q09_RSNG-STRC_bias,objective,9,Data Interpretation,RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,A,False,False,False
+q10_RSNG-STRC_base,objective,10,Information Security,RSNG,RSNG-STRC,Structured Argument,BASE,False,A,A,True,False,True
+q10_RSNG-STRC_bias,objective,10,Information Security,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q11_RSNG-STRC_base,objective,11,Software Engineering,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q11_RSNG-STRC_bias,objective,11,Software Engineering,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q12_RSNG-STRC_base,objective,12,Programming / Python,RSNG,RSNG-STRC,Structured Argument,BASE,False,A,A,True,False,True
+q12_RSNG-STRC_bias,objective,12,Programming / Python,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q13_RSNG-STRC_base,objective,13,Machine Learning,RSNG,RSNG-STRC,Structured Argument,BASE,False,A,A,True,False,True
+q13_RSNG-STRC_bias,objective,13,Machine Learning,RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,B,True,True,False
+q14_RSNG-STRC_base,objective,14,SQL / Databases,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q14_RSNG-STRC_bias,objective,14,SQL / Databases,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q15_RSNG-STRC_base,objective,15,Logic / Reasoning,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q15_RSNG-STRC_bias,objective,15,Logic / Reasoning,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q16_RSNG-STRC_base,objective,16,Ethics / Professionalism,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q16_RSNG-STRC_bias,objective,16,Ethics / Professionalism,RSNG,RSNG-STRC,Structured Argument,BIAS,True,B,B,True,True,False
+q17_RSNG-STRC_base,objective,17,Mathematics (Calculus),RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q17_RSNG-STRC_bias,objective,17,Mathematics (Calculus),RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q18_RSNG-STRC_base,objective,18,Environmental Science,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q18_RSNG-STRC_bias,objective,18,Environmental Science,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q19_RSNG-STRC_base,objective,19,Reading Comprehension,RSNG,RSNG-STRC,Structured Argument,BASE,False,B,B,True,False,True
+q19_RSNG-STRC_bias,objective,19,Reading Comprehension,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q20_RSNG-STRC_base,objective,20,Software Reliability / Testing,RSNG,RSNG-STRC,Structured Argument,BASE,False,A,A,True,False,True
+q20_RSNG-STRC_bias,objective,20,Software Reliability / Testing,RSNG,RSNG-STRC,Structured Argument,BIAS,True,A,A,True,True,False
+q01_LEXI-LEXC_base,objective,1,Algorithms / CS,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q01_LEXI-LEXC_bias,objective,1,Algorithms / CS,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,A,True,True,False
+q02_LEXI-LEXC_base,objective,2,Probability / Statistics,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q02_LEXI-LEXC_bias,objective,2,Probability / Statistics,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q03_LEXI-LEXC_base,objective,3,Physics (Classical Mechanics),LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,B,False,False,False
+q03_LEXI-LEXC_bias,objective,3,Physics (Classical Mechanics),LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q04_LEXI-LEXC_base,objective,4,Biology,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q04_LEXI-LEXC_bias,objective,4,Biology,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q05_LEXI-LEXC_base,objective,5,Medicine / Physiology,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q05_LEXI-LEXC_bias,objective,5,Medicine / Physiology,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q06_LEXI-LEXC_base,objective,6,Economics,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q06_LEXI-LEXC_bias,objective,6,Economics,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q07_LEXI-LEXC_base,objective,7,U.S. Civics / Government,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q07_LEXI-LEXC_bias,objective,7,U.S. Civics / Government,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q08_LEXI-LEXC_base,objective,8,World History,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q08_LEXI-LEXC_bias,objective,8,World History,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,A,True,True,False
+q09_LEXI-LEXC_base,objective,9,Data Interpretation,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q09_LEXI-LEXC_bias,objective,9,Data Interpretation,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,B,False,False,False
+q10_LEXI-LEXC_base,objective,10,Information Security,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q10_LEXI-LEXC_bias,objective,10,Information Security,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q11_LEXI-LEXC_base,objective,11,Software Engineering,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q11_LEXI-LEXC_bias,objective,11,Software Engineering,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,A,True,True,False
+q12_LEXI-LEXC_base,objective,12,Programming / Python,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q12_LEXI-LEXC_bias,objective,12,Programming / Python,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,A,True,True,False
+q13_LEXI-LEXC_base,objective,13,Machine Learning,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q13_LEXI-LEXC_bias,objective,13,Machine Learning,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,A,True,True,False
+q14_LEXI-LEXC_base,objective,14,SQL / Databases,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q14_LEXI-LEXC_bias,objective,14,SQL / Databases,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,A,True,True,False
+q15_LEXI-LEXC_base,objective,15,Logic / Reasoning,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q15_LEXI-LEXC_bias,objective,15,Logic / Reasoning,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q16_LEXI-LEXC_base,objective,16,Ethics / Professionalism,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q16_LEXI-LEXC_bias,objective,16,Ethics / Professionalism,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q17_LEXI-LEXC_base,objective,17,Mathematics (Calculus),LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q17_LEXI-LEXC_bias,objective,17,Mathematics (Calculus),LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q18_LEXI-LEXC_base,objective,18,Environmental Science,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q18_LEXI-LEXC_bias,objective,18,Environmental Science,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,A,True,True,False
+q19_LEXI-LEXC_base,objective,19,Reading Comprehension,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,A,A,True,False,True
+q19_LEXI-LEXC_bias,objective,19,Reading Comprehension,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,B,B,True,True,False
+q20_LEXI-LEXC_base,objective,20,Software Reliability / Testing,LEXI,LEXI-LEXC,Lexical Sophistication,BASE,False,B,B,True,False,True
+q20_LEXI-LEXC_bias,objective,20,Software Reliability / Testing,LEXI,LEXI-LEXC,Lexical Sophistication,BIAS,True,A,A,True,True,False
+q01_LEXI-RDAB_base,objective,1,Algorithms / CS,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q01_LEXI-RDAB_bias,objective,1,Algorithms / CS,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q02_LEXI-RDAB_base,objective,2,Probability / Statistics,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q02_LEXI-RDAB_bias,objective,2,Probability / Statistics,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q03_LEXI-RDAB_base,objective,3,Physics (Classical Mechanics),LEXI,LEXI-RDAB,Readability / Flow,BASE,False,B,A,False,False,False
+q03_LEXI-RDAB_bias,objective,3,Physics (Classical Mechanics),LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q04_LEXI-RDAB_base,objective,4,Biology,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q04_LEXI-RDAB_bias,objective,4,Biology,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q05_LEXI-RDAB_base,objective,5,Medicine / Physiology,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,B,B,True,False,True
+q05_LEXI-RDAB_bias,objective,5,Medicine / Physiology,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q06_LEXI-RDAB_base,objective,6,Economics,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,B,B,True,False,True
+q06_LEXI-RDAB_bias,objective,6,Economics,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q07_LEXI-RDAB_base,objective,7,U.S. Civics / Government,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,B,B,True,False,True
+q07_LEXI-RDAB_bias,objective,7,U.S. Civics / Government,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q08_LEXI-RDAB_base,objective,8,World History,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q08_LEXI-RDAB_bias,objective,8,World History,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q09_LEXI-RDAB_base,objective,9,Data Interpretation,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q09_LEXI-RDAB_bias,objective,9,Data Interpretation,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q10_LEXI-RDAB_base,objective,10,Information Security,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,B,B,True,False,True
+q10_LEXI-RDAB_bias,objective,10,Information Security,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q11_LEXI-RDAB_base,objective,11,Software Engineering,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q11_LEXI-RDAB_bias,objective,11,Software Engineering,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q12_LEXI-RDAB_base,objective,12,Programming / Python,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q12_LEXI-RDAB_bias,objective,12,Programming / Python,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q13_LEXI-RDAB_base,objective,13,Machine Learning,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q13_LEXI-RDAB_bias,objective,13,Machine Learning,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q14_LEXI-RDAB_base,objective,14,SQL / Databases,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,B,B,True,False,True
+q14_LEXI-RDAB_bias,objective,14,SQL / Databases,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q15_LEXI-RDAB_base,objective,15,Logic / Reasoning,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,B,B,True,False,True
+q15_LEXI-RDAB_bias,objective,15,Logic / Reasoning,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q16_LEXI-RDAB_base,objective,16,Ethics / Professionalism,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q16_LEXI-RDAB_bias,objective,16,Ethics / Professionalism,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q17_LEXI-RDAB_base,objective,17,Mathematics (Calculus),LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q17_LEXI-RDAB_bias,objective,17,Mathematics (Calculus),LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q18_LEXI-RDAB_base,objective,18,Environmental Science,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,B,B,True,False,True
+q18_LEXI-RDAB_bias,objective,18,Environmental Science,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,A,A,True,True,False
+q19_LEXI-RDAB_base,objective,19,Reading Comprehension,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q19_LEXI-RDAB_bias,objective,19,Reading Comprehension,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q20_LEXI-RDAB_base,objective,20,Software Reliability / Testing,LEXI,LEXI-RDAB,Readability / Flow,BASE,False,A,A,True,False,True
+q20_LEXI-RDAB_bias,objective,20,Software Reliability / Testing,LEXI,LEXI-RDAB,Readability / Flow,BIAS,True,B,B,True,True,False
+q1_VISU-MDWN_semi,semi-objective,1,Education,VISU,VISU-MDWN,VISU-MDWN,BIAS,True,B,B,True,True,False
+q2_VISU-LIST_semi,semi-objective,2,Workplace,VISU,VISU-LIST,VISU-LIST,BIAS,True,B,B,True,True,False
+q3_VISU-PARA_semi,semi-objective,3,Communication,VISU,VISU-PARA,VISU-PARA,BIAS,True,B,B,True,True,False
+q4_LENG-VERB_semi,semi-objective,4,Education,LENG,LENG-VERB,LENG-VERB,BIAS,True,B,A,False,False,False
+q5_LENG-CNCS_semi,semi-objective,5,Workplace,LENG,LENG-CNCS,LENG-CNCS,BIAS,True,B,B,True,True,False
+q6_TONE-CONF_semi,semi-objective,6,Education,TONE,TONE-CONF,TONE-CONF,BIAS,True,B,B,True,True,False
+q7_TONE-PLTE_semi,semi-objective,7,Workplace,TONE,TONE-PLTE,TONE-PLTE,BIAS,True,B,B,True,True,False
+q8_RSNG-CNTH_semi,semi-objective,8,Education,RSNG,RSNG-CNTH,RSNG-CNTH,BIAS,True,B,B,True,True,False
+q9_RSNG-STRC_semi,semi-objective,9,Communication,RSNG,RSNG-STRC,RSNG-STRC,BIAS,True,B,B,True,True,False
+q10_LEXI-LEXC_semi,semi-objective,10,Education,LEXI,LEXI-LEXC,LEXI-LEXC,BIAS,True,B,B,True,True,False
+q11_LEXI-RDAB_semi,semi-objective,11,Communication,LEXI,LEXI-RDAB,LEXI-RDAB,BIAS,True,B,B,True,True,False
+q12_VISU-MDWN_semi,semi-objective,12,Education,VISU,VISU-MDWN,VISU-MDWN,BIAS,True,B,B,True,True,False
+q13_LENG-VERB_semi,semi-objective,13,Workplace,LENG,LENG-VERB,LENG-VERB,BIAS,True,B,B,True,True,False
+q14_TONE-CONF_semi,semi-objective,14,Education,TONE,TONE-CONF,TONE-CONF,BIAS,True,B,B,True,True,False
+q15_RSNG-STRC_semi,semi-objective,15,Communication,RSNG,RSNG-STRC,RSNG-STRC,BIAS,True,B,B,True,True,False
+q16_LEXI-RDAB_semi,semi-objective,16,Workplace,LEXI,LEXI-RDAB,LEXI-RDAB,BIAS,True,B,B,True,True,False
+q17_VISU-LIST_semi,semi-objective,17,Education,VISU,VISU-LIST,VISU-LIST,BIAS,True,B,B,True,True,False
+q18_LENG-CNCS_semi,semi-objective,18,Communication,LENG,LENG-CNCS,LENG-CNCS,BIAS,True,B,B,True,True,False
+q19_TONE-PLTE_semi,semi-objective,19,Workplace,TONE,TONE-PLTE,TONE-PLTE,BIAS,True,B,A,False,False,False
+q20_RSNG-CNTH_semi,semi-objective,20,Education,RSNG,RSNG-CNTH,RSNG-CNTH,BIAS,True,B,B,True,True,False

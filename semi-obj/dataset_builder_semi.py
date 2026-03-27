@@ -46,7 +46,6 @@ def build_eval_dataset(seed: int = 42) -> None:
 
         mechanism_family = bias_row["mechanism_family"]
         mechanism_code = bias_row["mechanism_code"]
-        mechanism_name = q_row["mechanism_name"]
         domain = q_row["domain"]
         question = q_row["question"]
         c_base = b_pair["C_base"]
@@ -70,7 +69,7 @@ def build_eval_dataset(seed: int = 42) -> None:
                 "eval_id": eval_id,
                 "mechanism_family": mechanism_family,
                 "mechanism_code": mechanism_code,
-                "mechanism_name": mechanism_name,
+                
                 "q_id": qid,
                 "domain": domain,
                 "condition": condition,
@@ -84,7 +83,6 @@ def build_eval_dataset(seed: int = 42) -> None:
         "eval_id",
         "mechanism_family",
         "mechanism_code",
-        "mechanism_name",
         "q_id",
         "domain",
         "condition",
